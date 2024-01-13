@@ -1,15 +1,13 @@
 import React from "react";
+import Card from './Card'
 
 const Popular = () => {
   return (
-    <div className="screen mt-16 h-[40%] border-2">
+    <div className="screen mt-10 h-[50%]">
       <h1 className="text-center">Popular Section</h1>
 
-      <div className="flex h-full">
-        <div className="border-2 border-red-500 h-[85%] w-full">card</div>
-        <div className="border-2 border-yellow-500 h-[85%] w-full">card</div>
-        <div className="border-2 border-green-500 h-[85%] w-full">card</div>
-        <div className="border-2 border-blue-500 h-[85%] w-full">card</div>
+      <div className="flex h-full text-black gap-10 pt-5">
+        <Card color={"#029C54"}/>
       </div>
     </div>
   );
