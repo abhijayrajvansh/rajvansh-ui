@@ -1,3 +1,3 @@
-# React Components and UI Library
+# Rajvansh UI
 
 Author: [Abhijay Rajvansh](https://x.com/rajvanshtwt)
